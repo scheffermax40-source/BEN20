@@ -162,21 +162,20 @@ color:#39ff14;
 line-height:1.6;
 }
 
-.aliens{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
-}
-
 .alien{
-width:220px;
+width:240px;
+min-height:180px;
 background:#1a1a1a;
 padding:20px;
 border-radius:20px;
 border:3px solid #39ff14;
 transition:.3s;
 cursor:pointer;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 }
 
 .alien:hover{
@@ -185,8 +184,11 @@ box-shadow:0 0 20px #39ff14;
 }
 
 .alien h3{
-font-size:28px;
+font-size:24px;
 color:#8cff00;
+word-break:break-word;
+line-height:1.2;
+margin-bottom:10px;
 }
 
 .btn{
