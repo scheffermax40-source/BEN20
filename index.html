@@ -161,7 +161,13 @@ font-weight:bold;
 color:#39ff14;
 line-height:1.6;
 }
-
+.aliens{
+display:grid;
+grid-template-columns:repeat(3, 1fr);
+gap:20px;
+max-width:900px;
+margin:0 auto;
+}
 .alien{
 height:180px;
 background:#1a1a1a;
@@ -527,7 +533,7 @@ seconds+" SEGUNDOS";
 setInterval(updateCountdown,1000);
 function copiarPix(){
 
-navigator.clipboard.writeText(135.819.519-67);
+navigator.clipboard.writeText("135.819.519-67");
 
 document.getElementById("pixMsg").innerHTML =
 "✅ Chave PIX copiada para a área de transferência!";
