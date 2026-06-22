@@ -533,7 +533,14 @@ seconds+" SEGUNDOS";
 setInterval(updateCountdown,1000);
 function copiarPix(){
 
+function copiarPix(){
+
 navigator.clipboard.writeText("135.819.519-67");
+
+document.getElementById("pixMsg").innerHTML =
+"✅ Chave PIX copiada para a área de transferência!";
+
+}
 
 document.getElementById("pixMsg").innerHTML =
 "✅ Chave PIX copiada para a área de transferência!";
