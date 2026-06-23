@@ -230,9 +230,7 @@ opacity:.3;
 footer{
 padding:80px 20px;
 }
-
-</style>
-  /* =========================
+/* =========================
    RESPONSIVIDADE GERAL
 ========================= */
 
@@ -330,6 +328,8 @@ img, div, section {
     height: 150px;
   }
 }
+</style>
+
 </head>
 
 <body>
@@ -628,8 +628,6 @@ seconds+" SEGUNDOS";
 
 }
 
-setInterval(updateCountdown,1000);
-
 function copiarPix() {
   navigator.clipboard.writeText("135.819.519-67");
 
@@ -637,11 +635,8 @@ function copiarPix() {
     "✅ Chave PIX copiada para a área de transferência!";
 }
 
-}
-
-
-}
 updateCountdown();
+setInterval(updateCountdown, 1000);
 
 </script>
 
